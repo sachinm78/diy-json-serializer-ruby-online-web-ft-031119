@@ -33,7 +33,7 @@ class PostsController < ApplicationController
   
   def post_data
     post = Post.find(params[:id])
-    render json: PostSerializer.serialize(post)son: PostSerializer.serialize(post)
+    render json: PostSerializer.serialize(post)
   end
 
 private
